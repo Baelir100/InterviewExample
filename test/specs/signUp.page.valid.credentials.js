@@ -9,7 +9,7 @@ const name = "Bohdan Solovii"
 const password = "!Password123"
 const promo = "promo359"
 
-xdescribe('Sign In: Minimal Conditions', () => {
+describe('Sign In: Minimal Conditions', () => {
     it('Sign In: Valid Conditions', async () => {
         await PageOpen.openUrl(url)
         await PageOpen.closeCookiesWarningModal()

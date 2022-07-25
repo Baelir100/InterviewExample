@@ -6,7 +6,7 @@ const {expect} = require('chai');
 const url = "https://portal.telnyx.com/#/login/sign-in"
 
 
-describe('Home Page: Network Page', () => {
+xdescribe('Home Page: Network Page', () => {
     it('Network Page: Create first Network', async () => {
         await browser.reloadSession()
         await PageOpen.openUrl(url)
