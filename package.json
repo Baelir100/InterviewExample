@@ -12,22 +12,9 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
-        "test": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.headless.conf.js",
-        "repl": "wdio repl chrome",
-        "multi": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.conf.js  --spec test/specs/Multiremote.spec.js",
-        "config": "sh -ac 'if test \"$TESTS_ENV\"; then cp environments/env.${TESTS_ENV}.json.template environments/env.json; fi'",
-        "test:chrome:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.headless.conf.js",
-        "test:chrome:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.chrome.conf.js  --spec test/specs/AddRemoveElement.spec.js",
-        "test:firefox:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.firefox.headless.conf.js",
-        "test:firefox:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.firefox.conf.js --spec test/specs/BrokenImages.spec.js",
-        "test:edge:headless:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.edge.headless.conf.js",
-        "test:edge:ui": "cross-env TESTS_ENV=ui npm run config && ./node_modules/.bin/wdio config/wdio.edge.conf.js --spec test/specs/BrokenImages.spec.js",
-        "allire:clean": "rm -rf allure-results/* allure-report/*",
-        "allure:history": "cp -R allure-report/history allure-results",
+        "test": "npx wdio wdio.conf.js",
+        "test:headless": "npx wdio wdio.chrome.headless.conf.js",
         "allure:serve": "npx allure serve allure-results",
-        "allure:serve:hi": "npm run allure:history && npx allure serve allure-results",
-        "allure:generate:hi": "npm run allure:history && npx allure generate allure-results --clean",
         "allure:generate": "npx allure generate allure-results --clean"
     },
     "dependencies": {
