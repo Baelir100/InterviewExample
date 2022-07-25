@@ -7,7 +7,7 @@ const url = "https://portal.telnyx.com/#/login/sign-in"
 const email = "Bohdansoloviy@gmail.com"
 const password = "!Password123"
 
-describe('Log In: Valid Credentials', () => {
+xdescribe('Log In: Valid Credentials', () => {
     it('Valid Credential: Without "Remember my email address" checkbox', async () => {
         await browser.reloadSession()
         await PageOpen.openUrl(url)
