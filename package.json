@@ -1,0 +1,24 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.20.7",
+        "@wdio/cli": "^7.20.7",
+        "@wdio/local-runner": "^7.20.7",
+        "@wdio/mocha-framework": "^7.20.7",
+        "@wdio/spec-reporter": "^7.20.7",
+        "chromedriver": "^103.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    },
+    "scripts": {
+        "test": "npx wdio wdio.conf.js",
+        "test:headless": "npx wdio wdio.chrome.headless.conf.js",
+        "allure:serve": "npx allure serve allure-results",
+        "allure:generate": "npx allure generate allure-results --clean"
+    },
+    "dependencies": {
+        "allure-commandline": "^2.18.1",
+        "chai": "^4.3.6"
+    }
+}

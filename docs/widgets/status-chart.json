@@ -1,0 +1,361 @@
+[ {
+  "uid" : "5c1eeabbe44ae53e",
+  "name" : "Empty fields: Empty credentials",
+  "time" : {
+    "start" : 1658774750198,
+    "stop" : 1658774750584,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1710d75fb822b131",
+  "name" : "Links Redirect: Log in",
+  "time" : {
+    "start" : 1658774716473,
+    "stop" : 1658774730368,
+    "duration" : 13895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39645b8fce0c6801",
+  "name" : "Password Requirements: Be at least 12 characters long",
+  "time" : {
+    "start" : 1658774756407,
+    "stop" : 1658774757571,
+    "duration" : 1164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa8ca299285f7a43",
+  "name" : "Password Requirements: Contain at least one number",
+  "time" : {
+    "start" : 1658774757571,
+    "stop" : 1658774758386,
+    "duration" : 815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd0ee5ba31c7ea58",
+  "name" : "Empty fields: Empty Credentials",
+  "time" : {
+    "start" : 1658774509130,
+    "stop" : 1658774520032,
+    "duration" : 10902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b578b750e7a28ae",
+  "name" : "Links Redirect: Password Reset",
+  "time" : {
+    "start" : 1658774487123,
+    "stop" : 1658774496361,
+    "duration" : 9238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6177a9a5c5b40a72",
+  "name" : "Empty fields: Name only",
+  "time" : {
+    "start" : 1658774752635,
+    "stop" : 1658774753825,
+    "duration" : 1190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd6a19766c4925c5",
+  "name" : "Network Page: Create first Network",
+  "time" : {
+    "start" : 1658774654248,
+    "stop" : 1658774675490,
+    "duration" : 21242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e7fb62b76bf73d7",
+  "name" : "Links Redirect: Terms and Conditions",
+  "time" : {
+    "start" : 1658774699580,
+    "stop" : 1658774708545,
+    "duration" : 8965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7177a6fc91c75ea9",
+  "name" : "Sign In: Valid Conditions",
+  "time" : {
+    "start" : 1658774770059,
+    "stop" : 1658774779000,
+    "duration" : 8941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0575557145084b0",
+  "name" : "Sign In: Valid Conditions + Promo Code",
+  "time" : {
+    "start" : 1658774779001,
+    "stop" : 1658774786505,
+    "duration" : 7504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f601a889567dc8be",
+  "name" : "Valid Credential: Without \"Remember my email address\" checkbox",
+  "time" : {
+    "start" : 1658774614742,
+    "stop" : 1658774632062,
+    "duration" : 17320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33ec412d7a998d5e",
+  "name" : "Promo Code: Promo Code Only",
+  "time" : {
+    "start" : 1658774760734,
+    "stop" : 1658774762075,
+    "duration" : 1341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "847b53d4a977f975",
+  "name" : "Sign In: Valid Conditions + Promo Code + Receive Emails Checkbox",
+  "time" : {
+    "start" : 1658774793078,
+    "stop" : 1658774801043,
+    "duration" : 7965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cb8f7282cbb0bd8",
+  "name" : "Empty fields: Without email",
+  "time" : {
+    "start" : 1658774531737,
+    "stop" : 1658774543303,
+    "duration" : 11566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77feb36ea7b26dc6",
+  "name" : "Checkbox: Terms And Conditions Checkbox Uncheked Error",
+  "time" : {
+    "start" : 1658774762082,
+    "stop" : 1658774763336,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e91419b0f7b6209c",
+  "name" : "Valid Credential: With \"Remember my email address\" checkbox",
+  "time" : {
+    "start" : 1658774632063,
+    "stop" : 1658774649332,
+    "duration" : 17269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a0684ca7c998931",
+  "name" : "Links Redirect: Privacy Policy",
+  "time" : {
+    "start" : 1658774708546,
+    "stop" : 1658774716472,
+    "duration" : 7926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "342f594858ef407d",
+  "name" : "Checkbox: Terms And Conditions Checkbox Only",
+  "time" : {
+    "start" : 1658774763336,
+    "stop" : 1658774764479,
+    "duration" : 1143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ad072fa7834f1a3",
+  "name" : "Empty fields: Email only",
+  "time" : {
+    "start" : 1658774750585,
+    "stop" : 1658774752634,
+    "duration" : 2049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbe109c1c8e68e2d",
+  "name" : "Invalid Values: Invalid non Email value",
+  "time" : {
+    "start" : 1658774543321,
+    "stop" : 1658774558973,
+    "duration" : 15652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c28c8d1b83a40d1a",
+  "name" : "Promo Code: Expand",
+  "time" : {
+    "start" : 1658774759898,
+    "stop" : 1658774760734,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e51b01a69ed5d63",
+  "name" : "Invalid Values: Invalid Work Email",
+  "time" : {
+    "start" : 1658774755211,
+    "stop" : 1658774756402,
+    "duration" : 1191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53cdb692a1707422",
+  "name" : "Password Requirements: Contain at least one upper-case letter",
+  "time" : {
+    "start" : 1658774759140,
+    "stop" : 1658774759892,
+    "duration" : 752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccf26853bdc47f90",
+  "name" : "Invalid Values: Invalid non Email value and Invalid non exist Password",
+  "time" : {
+    "start" : 1658774595798,
+    "stop" : 1658774610010,
+    "duration" : 14212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ef8aa2fc8494a7",
+  "name" : "Checkbox: Recieve Emails Checkbox Only",
+  "time" : {
+    "start" : 1658774764479,
+    "stop" : 1658774765512,
+    "duration" : 1033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3c722e318b0008f",
+  "name" : "Empty fields: Password only",
+  "time" : {
+    "start" : 1658774753825,
+    "stop" : 1658774755186,
+    "duration" : 1361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "573cb28e054b1191",
+  "name" : "Links Redirect: Sign Up",
+  "time" : {
+    "start" : 1658774496362,
+    "stop" : 1658774497466,
+    "duration" : 1104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb7788b0b3232b16",
+  "name" : "Invalid Values: Invalid non exist Email",
+  "time" : {
+    "start" : 1658774558974,
+    "stop" : 1658774571320,
+    "duration" : 12346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "311a10ab3310244b",
+  "name" : "Network Page: Delete Network",
+  "time" : {
+    "start" : 1658774675491,
+    "stop" : 1658774694928,
+    "duration" : 19437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d905b672b2dfe4b",
+  "name" : "Links Redirect: Resend Email",
+  "time" : {
+    "start" : 1658774497467,
+    "stop" : 1658774504137,
+    "duration" : 6670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1748129ea7e317",
+  "name" : "Invalid Values: Invalid non exist Email and non exist Password",
+  "time" : {
+    "start" : 1658774583861,
+    "stop" : 1658774595798,
+    "duration" : 11937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80fc971e384e7b16",
+  "name" : "Password Requirements: Contain at least one symbol",
+  "time" : {
+    "start" : 1658774758386,
+    "stop" : 1658774759140,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d037b2609c5d443",
+  "name" : "Sign In: Valid Conditions + Receive Emails Checkbox",
+  "time" : {
+    "start" : 1658774786505,
+    "stop" : 1658774793078,
+    "duration" : 6573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4d1b611f64f0b3",
+  "name" : "Empty fields: Without password",
+  "time" : {
+    "start" : 1658774520033,
+    "stop" : 1658774531737,
+    "duration" : 11704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0e2026dbe9350",
+  "name" : "Invalid Values: Invalid non exist Password",
+  "time" : {
+    "start" : 1658774571320,
+    "stop" : 1658774583861,
+    "duration" : 12541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

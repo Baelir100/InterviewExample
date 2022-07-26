@@ -1,0 +1,58 @@
+{
+  "uid" : "3d037b2609c5d443",
+  "name" : "Sign In: Valid Conditions + Receive Emails Checkbox",
+  "fullName" : "Sign In: Minimal Conditions.Sign In: Valid Conditions + Receive Emails Checkbox",
+  "historyId" : "cda883df9c040fdcb06e189d7d431c7a",
+  "time" : {
+    "start" : 1658774786505,
+    "stop" : 1658774793078,
+    "duration" : 6573
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Sign In: Minimal Conditions"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign In: Minimal Conditions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign In: Valid Conditions + Receive Emails Checkbox"
+  }, {
+    "name" : "package",
+    "value" : "Sign In: Minimal Conditions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d037b2609c5d443.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

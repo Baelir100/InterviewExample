@@ -1,0 +1,58 @@
+{
+  "uid" : "f601a889567dc8be",
+  "name" : "Valid Credential: Without \"Remember my email address\" checkbox",
+  "fullName" : "Log In: Valid Credentials.Valid Credential: Without \"Remember my email address\" checkbox",
+  "historyId" : "51d9f8d6edcab81fbaa899dd01440df1",
+  "time" : {
+    "start" : 1658774614742,
+    "stop" : 1658774632062,
+    "duration" : 17320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Log In: Valid Credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Log In: Valid Credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Valid Credential: Without \"Remember my email address\" checkbox"
+  }, {
+    "name" : "package",
+    "value" : "Log In: Valid Credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f601a889567dc8be.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
