@@ -1,5 +1,7 @@
 name: Main Github Actions
 on:
+  schedule:
+    - cron: '25,55 * * * *'
   workflow_dispatch:
   push:
     branches:
