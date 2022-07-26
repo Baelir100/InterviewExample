@@ -4,7 +4,7 @@ const modalBody = '#__next>div:first-child>div>div'
 const modalHeader = ''
 const modalInformation = ''
 const acceptAndCloseButton = ''
-const findOutMoreButton = ''
+const findOutMoreButton = ' '
 const closeButton = 'body>div>div>div>div>button>svg'
 
 class CookiesWarningModal extends MainMethods {
