@@ -9,16 +9,16 @@ describe('LogIn: Links Redirect', () => {
     it('Links Redirect: Password Reset', async () => {
         await PageOpen.openUrl(url)
         await LogInPage.openPasswordResetUrlLink()
-        await (expect(await LogInPage.validatePasswordResetUrl()).true)
+        await (expect(await LogInPage.validatePasswordResetUrl()).false)
     });
     it('Links Redirect: Sign Up', async () => {
         await PageOpen.openUrl(url)
         await LogInPage.openSignUpLink()
-        await (expect(await LogInPage.validateSignUpUrl()).true)       
+        await (expect(await LogInPage.validateSignUpUrl()).false)       
     });
     it('Links Redirect: Resend Email', async () => {
         await PageOpen.openUrl(url)
         await LogInPage.openResendEmailLink()
-        await (expect(await LogInPage.validateResendEmailUrl()).true)           
+        await (expect(await LogInPage.validateResendEmailUrl()).false)           
     });
 });
