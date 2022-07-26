@@ -1,4 +1,4 @@
-name: Main Github Actions
+name: Main Github
 on:
   schedule:
     - cron: '25,55 * * * *'
