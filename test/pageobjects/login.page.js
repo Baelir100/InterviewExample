@@ -7,9 +7,11 @@
     
     const logInButton = '[aria-label="loginForm"] [type="submit"]'
     const inputWorkEmail = '[name="email"]'
-    const inputWorkEmailError = '//input[@name="email"]/../../div[2]'
+    const inputWorkEmailError = '//input[@name="email"]/../../div[2]'    
+    // const inputWorkEmailError = '[name="login"]>form>div>div:first-child>label>div>div:nth-child(2)'
     const inputPassword = '[name="password"]'
     const inputPasswordError = '//input[@name="password"]/../../div[2]'
+    // const inputPasswordError = '[name="login"]>form>div>div:nth-child(2)>label>div>div:nth-child(2)'
     const rememberMeCheckbox = 'form[aria-label="loginForm"] svg'
     const combinationIsNotWalidError = '[data-testid="login.signin.message"]'
     const passwordResetLink = '[href="/#/login/password-reset"]'

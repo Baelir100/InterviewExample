@@ -1,12 +1,12 @@
     const MainMethods = require('./main.methods');
     
-    const networkingPageButton = '[id="main_content"] [href="/#/app/networking/networks"]'
-    const createNetworkButton = '//*[@id="navView-content"]/div[3]/div/react-networks-new-route//div[2]/button[1]'
-    const modalNetworkNameInput = '//aside//input'
-    const firstNetworkName = '//tbody/tr[1]/td[1]'
-    const modalCreateNetworkButton = '//aside//div[2]/form/div/div/div/button[2]'
-    const deleteNetworkButton = '//tbody/tr[1]/td[4]//button[2]'
-    const modalDeleteNetworkButton = '//aside//button[2]'
+    const networkingPageButton = '#main_content [href="/#/app/networking/networks"]'
+    const createNetworkButton = '[data-testid="title-container"]~div button:first-child'
+    const modalNetworkNameInput = 'aside input'
+    const firstNetworkName = 'tbody tr:first-child td:first-child'
+    const modalCreateNetworkButton = 'aside button:nth-child(2)'
+    const deleteNetworkButton = 'tbody>tr>td>div>button:nth-child(2)'
+    const modalDeleteNetworkButton = 'aside button:nth-child(2)'
     const startingNetworkEmptyState = 'section>div>div>h2'
     
     class NetworkPage extends MainMethods {

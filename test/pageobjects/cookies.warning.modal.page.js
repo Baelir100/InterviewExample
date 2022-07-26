@@ -1,6 +1,6 @@
 const MainMethods = require('./main.methods');
 
-const modalBody = '//div[@id="__next"]/div[1]/div/div'
+const modalBody = '#__next>div:first-child>div>div'
 const modalHeader = ''
 const modalInformation = ''
 const acceptAndCloseButton = ''
