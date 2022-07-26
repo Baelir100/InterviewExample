@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Jul 26 19:53:22 UTC 2022","Tue Jul 26 19:53:27 UTC 2022","4971","","Log In: Empty fields","","Log In: Empty fields","Empty fields: Without email","Empty fields: Without email",""
+"failed","Tue Jul 26 19:53:05 UTC 2022","Tue Jul 26 19:53:10 UTC 2022","4769","","LogIn: Links Redirect","","LogIn: Links Redirect","Links Redirect: Resend Email","Links Redirect: Resend Email",""
+"failed","Tue Jul 26 19:52:59 UTC 2022","Tue Jul 26 19:53:04 UTC 2022","5093","","LogIn: Links Redirect","","LogIn: Links Redirect","Links Redirect: Password Reset","Links Redirect: Password Reset",""
+"failed","Tue Jul 26 19:53:11 UTC 2022","Tue Jul 26 19:53:16 UTC 2022","5181","","Log In: Empty fields","","Log In: Empty fields","Empty fields: Empty Credentials","Empty fields: Empty Credentials",""
+"failed","Tue Jul 26 19:53:16 UTC 2022","Tue Jul 26 19:53:22 UTC 2022","5276","","Log In: Empty fields","","Log In: Empty fields","Empty fields: Without password","Empty fields: Without password",""
+"failed","Tue Jul 26 19:53:04 UTC 2022","Tue Jul 26 19:53:05 UTC 2022","818","","LogIn: Links Redirect","","LogIn: Links Redirect","Links Redirect: Sign Up","Links Redirect: Sign Up",""
