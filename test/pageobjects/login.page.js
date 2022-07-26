@@ -14,9 +14,9 @@
     // const inputPasswordError = '[name="login"]>form>div>div:nth-child(2)>label>div>div:nth-child(2)'
     const rememberMeCheckbox = 'form[aria-label="loginForm"] svg'
     const combinationIsNotWalidError = '[data-testid="login.signin.message"]'
-    const passwordResetLink = 'a[href$="/password-reset"]'
-    const signUpLink = 'a[href$="/sign-up"]'
-    const resendEmailLink = 'a[href$="resend-email"]'
+    const passwordResetLink = '[href="/#/login/password-reset"]'
+    const signUpLink = '[href$="https://telnyx.com/sign-up"]'
+    const resendEmailLink = '[href="/#/login/resend-email"]'
     
     class LogInPage extends MainMethods {
       
