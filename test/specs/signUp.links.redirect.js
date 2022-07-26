@@ -4,7 +4,7 @@ const {expect} = require('chai');
 
 const url = "https://telnyx.com/sign-up"
 
-describe('LogIn: Links Redirect', () => {
+describe('SignUp: Links Redirect', () => {
     it('Links Redirect: Terms and Conditions', async () => {
         await PageOpen.openUrl(url)
         await PageOpen.closeCookiesWarningModal()
