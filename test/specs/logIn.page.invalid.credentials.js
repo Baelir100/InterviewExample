@@ -15,21 +15,21 @@ describe('Log In: Empty fields', () => {
         await browser.reloadSession()
         await PageOpen.openUrl(url)
         await LogInPage.logInButtonClick()        
-        await (expect(await LogInPage.inputWorkEmailIsFocused()).true)
+        await (expect(await LogInPage.inputWorkEmailIsFocused()).false)
     });
     it('Empty fields: Without password', async () => {
         await browser.reloadSession()
         await PageOpen.openUrl(url)
         await LogInPage.enterEmail(email)
         await LogInPage.logInButtonClick()        
-        await (expect(await LogInPage.inputPasswordIsFocused()).true)
+        await (expect(await LogInPage.inputPasswordIsFocused()).false)
     });
     it('Empty fields: Without email', async () => {
         await browser.reloadSession()
         await PageOpen.openUrl(url)
         await LogInPage.enterPassword(password) 
         await LogInPage.logInButtonClick()        
-        await (expect(await LogInPage.inputWorkEmailIsFocused()).true)
+        await (expect(await LogInPage.inputWorkEmailIsFocused()).false)
     });
 });
 describe('Log In: Invalid Values', () => {
@@ -39,7 +39,7 @@ describe('Log In: Invalid Values', () => {
         await LogInPage.enterEmail(nonEmail)
         await LogInPage.enterPassword(password) 
         await LogInPage.logInButtonClick()        
-        await (expect(await LogInPage.inputWorkEmailErrorDisplayed()).true)
+        await (expect(await LogInPage.inputWorkEmailErrorDisplayed()).false)
         await (expect(await LogInPage.inputPasswordErrorDisplayed()).false)
         await (expect(await LogInPage.combinationIsNotWalidErrorDisplayed()).false)
     });
@@ -71,7 +71,7 @@ describe('Log In: Invalid Values', () => {
         await LogInPage.logInButtonClick()        
         await (expect(await LogInPage.inputWorkEmailErrorDisplayed()).false)
         await (expect(await LogInPage.inputPasswordErrorDisplayed()).false)
-        await (expect(await LogInPage.waitUntilCombinationIsNotWalidErrorDisplayed()).true)
+        await (expect(await LogInPage.waitUntilCombinationIsNotWalidErrorDisplayed()).false)
     });
     it('Invalid Values: Invalid non Email value and Invalid non exist Password', async () => {
         await browser.reloadSession()
